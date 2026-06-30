@@ -14,7 +14,8 @@ build/
 
 # Data — raw files are large and reproducible via scripts/download_data.py
 data/raw/
-data/processed/
+data/processed/*
+!data/processed/test_clean.csv
 
 # Large model binaries (model.ubj at <1 MB is committed directly)
 backend/ml/*.pkl
