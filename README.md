@@ -42,6 +42,14 @@ data/raw/  →  backend/ml/train.py  →  backend/ml/model.ubj
 
 ---
 
+## Screenshot
+
+![Credit Risk Scorer UI](docs/screenshot.png)
+
+*Left: applicant input form (personal info, repayment history, bill and payment amounts). Right: risk gauge, SHAP contributing-factors chart (red = increases risk, blue = decreases), and Llama 3.1 plain-English explanation.*
+
+---
+
 ## Setup
 
 ### Prerequisites
