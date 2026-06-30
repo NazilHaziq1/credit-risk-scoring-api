@@ -9,3 +9,12 @@ services:
         sync: false
       - key: GROQ_API_KEY
         sync: false
+
+  - type: web
+    name: credit-risk-frontend
+    runtime: static
+    buildCommand: cd frontend && npm ci && npm run build
+    staticPublishPath: ./frontend/dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://credit-risk-scoring-api-2iir.onrender.com

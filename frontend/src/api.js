@@ -1,4 +1,4 @@
-const BASE = ''  // proxied through Vite to localhost:8000
+const BASE = import.meta.env.VITE_API_URL || ''
 
 export async function predict(features) {
   const res = await fetch(`${BASE}/predict`, {
