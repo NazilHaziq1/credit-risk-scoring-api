@@ -65,6 +65,7 @@ app.add_middleware(
         "http://localhost:5173",
         "http://localhost:5174",
         "https://credit-risk-frontend.onrender.com",
+        "https://credit-risk-scoring-api-frontend.onrender.com",
     ],
     allow_methods=["*"],
     allow_headers=["*"],
